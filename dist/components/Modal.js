@@ -5,6 +5,8 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = void 0;
 
+var _react = _interopRequireDefault(require("react"));
+
 var _reactDom = _interopRequireDefault(require("react-dom"));
 
 require("./StyleModal.css");
@@ -17,13 +19,13 @@ const Modal = _ref => {
     hide,
     text
   } = _ref;
-  return isShowing ? /*#__PURE__*/_reactDom.default.createPortal( /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement("div", {
+  return isShowing ? /*#__PURE__*/_reactDom.default.createPortal( /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, /*#__PURE__*/_react.default.createElement("div", {
     className: "modalOverlay"
-  }, /*#__PURE__*/React.createElement("div", {
+  }, /*#__PURE__*/_react.default.createElement("div", {
     className: "modalOverlay__wrapper"
-  }, /*#__PURE__*/React.createElement("div", {
+  }, /*#__PURE__*/_react.default.createElement("div", {
     className: "modalOverlay__wrapper__header"
-  }, /*#__PURE__*/React.createElement("h4", null, text), /*#__PURE__*/React.createElement("div", {
+  }, /*#__PURE__*/_react.default.createElement("h4", null, text), /*#__PURE__*/_react.default.createElement("div", {
     className: "modalOverlay__wrapper__header__closeButton",
     onClick: hide
   }, "\xD7"))))), document.getElementById('modal-root')) : null;
