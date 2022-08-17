@@ -1,6 +1,6 @@
 {
   "name": "npmreactmodal",
-  "version": "0.1.13",
+  "version": "0.2.0",
   "private": false,
   "dependencies": {
     "@babel/polyfill": "^7.12.1",
