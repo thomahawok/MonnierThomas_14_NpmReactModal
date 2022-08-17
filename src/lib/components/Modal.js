@@ -9,13 +9,13 @@ const Modal = ({ isShowing, hide, text }) =>
             <div className="modalOverlay__wrapper">
               <div className="modalOverlay__wrapper__header">
                 <h4>{text}</h4>
-                <button
+                <div
                   type="button"
                   className="modalOverlay__wrapper__header__closeButton"
                   onClick={hide}
                 >
                   <span>&times;</span>
-                </button>
+                </div>
               </div>
             </div>
           </div>
