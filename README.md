@@ -14,9 +14,9 @@ To install, you can use [npm](https://npmjs.org/) :
 
   - [Demo](https://thomahawok-p14-wealthhealth.netlify.app/)
 
-### In index.html
+### In index.html file
 
-  - add : '<div id="modal-root"></div>' 
+  - add : `<div id="modal-root"></div>` 
 
 ```jsx
 <!DOCTYPE html>
@@ -34,7 +34,7 @@ To install, you can use [npm](https://npmjs.org/) :
   <body>
 
     <div id="modal-root"></div>
-    
+
     <div id="root"></div>
   </body>
 </html>
@@ -63,7 +63,7 @@ export default function Form() {
             Save
           </button>
       </form>
-      <Modal isShowing={isShowing} hide={toggle} text="your text !/>
+      <Modal isShowing={isShowing} hide={toggle} text="your text here !/>
     </main>
   )
 }
