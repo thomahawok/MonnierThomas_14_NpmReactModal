@@ -4,10 +4,9 @@ Responsive modal dialog component for React.
 
 ## Installation
 
-To install, you can use [npm](https://npmjs.org/) or [yarn](https://yarnpkg.com):
+To install, you can use [npm](https://npmjs.org/) :
 
     $ npm install npmreactmodal
-    $ yarn add npmreactmodal
 
   - Use `<Modal>` tag inside your React app.
 
@@ -16,14 +15,12 @@ To install, you can use [npm](https://npmjs.org/) or [yarn](https://yarnpkg.com)
   - [Demo](https://thomahawok-p14-wealthhealth.netlify.app/)
 
 ```jsx
-import { Modal, useModale } from 'npmreactmodal'
+import { Modal, useModal } from 'npmreactmodal'
 import React from 'react'
 export default function Form() {
   window.React = React
   const { isShowing, toggle } = useModal()
   
-
-  }
   return (
     <main className="container">
       <h2 className="title">Create Employee</h2>

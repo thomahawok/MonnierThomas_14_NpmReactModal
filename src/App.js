@@ -1,6 +1,6 @@
 import './App.css';
-import Modal from './components/Modal';
-import useModal from './components/useModal';
+import Modal from './lib/components/Modal';
+import useModal from './lib/components/useModal';
 
 function App() {
   const { isShowing, toggle } = useModal()

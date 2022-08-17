@@ -1,4 +1,5 @@
 import ReactDOM from 'react-dom'
+import './StyleModal.css'
 
 const Modal = ({ isShowing, hide }) =>
   isShowing
