@@ -10,7 +10,6 @@ const Modal = ({ isShowing, hide, text }) =>
               <div className="modalOverlay__wrapper__header">
                 <h4>{text}</h4>
                 <div
-                  type="button"
                   className="modalOverlay__wrapper__header__closeButton"
                   onClick={hide}
                 >

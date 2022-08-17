@@ -27,7 +27,7 @@ export default function Form() {
       <form className="form" onSubmit={handleSibmit}>
         (...)
          <button
-            type="submit"
+            type="button"
             className="btn"
             onClick={toggle}
           >
