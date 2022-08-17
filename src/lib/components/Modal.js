@@ -13,7 +13,7 @@ const Modal = ({ isShowing, hide, text }) =>
                   className="modalOverlay__wrapper__header__closeButton"
                   onClick={hide}
                 >
-                  <span>&times;</span>
+                  &times;
                 </div>
               </div>
             </div>

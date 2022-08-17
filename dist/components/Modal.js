@@ -26,7 +26,7 @@ const Modal = _ref => {
   }, /*#__PURE__*/React.createElement("h4", null, text), /*#__PURE__*/React.createElement("div", {
     className: "modalOverlay__wrapper__header__closeButton",
     onClick: hide
-  }, /*#__PURE__*/React.createElement("span", null, "\xD7")))))), document.getElementById('modal-root')) : null;
+  }, "\xD7"))))), document.getElementById('modal-root')) : null;
 };
 
 var _default = Modal;
