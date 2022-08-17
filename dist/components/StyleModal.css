@@ -21,14 +21,14 @@
     padding: 1rem;
   }
 
-.modalOverlay__header{
+.modalOverlay__wrapper__header {
     display: flex;
-    justify-content: space-between;
+    justify-content:  space-between;
     align-items: center;
 }
 
     
-.modalOverlay__header__closeButton{
+.modalOverlay__header__closeButton {
     font-size: 3rem;
     font-weight: 700;
     color: white;
