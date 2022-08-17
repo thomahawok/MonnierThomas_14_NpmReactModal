@@ -5,8 +5,6 @@ import useModal from './components/useModal';
 function App() {
   const { isShowing, toggle } = useModal()
   return (
-
-
     <>
     <Modal isShowing={isShowing} hide={toggle} />
     </>
