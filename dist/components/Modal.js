@@ -15,7 +15,7 @@ const Modal = _ref => {
   let {
     isShowing,
     hide,
-    props
+    text
   } = _ref;
   return isShowing ? /*#__PURE__*/_reactDom.default.createPortal( /*#__PURE__*/React.createElement(React.Fragment, null, /*#__PURE__*/React.createElement("div", {
     className: "modalOverlay"
@@ -23,7 +23,7 @@ const Modal = _ref => {
     className: "modalOverlay__wrapper"
   }, /*#__PURE__*/React.createElement("div", {
     className: "modalOverlay__wrapper__header"
-  }, /*#__PURE__*/React.createElement("h4", null, props.text), /*#__PURE__*/React.createElement("button", {
+  }, /*#__PURE__*/React.createElement("h4", null, text), /*#__PURE__*/React.createElement("button", {
     type: "button",
     className: "modalOverlay__wrapper__header__closeButton",
     onClick: hide
