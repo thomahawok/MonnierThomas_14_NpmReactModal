@@ -47,7 +47,7 @@ To install, you can use [npm](https://npmjs.org/) :
 import { Modal, useModal } from 'npmreactmodal'
 import React from 'react'
 export default function Form() {
-
+  window.React = React
   const { isShowing, toggle } = useModal()
   
   return (
